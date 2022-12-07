@@ -47,8 +47,10 @@ function App() {
 
   return (
     <>
-      <h1 className='heading'>Order Food</h1>
-      <h2 className='heading'>{tele?.initDataUnsafe?.user?.username}</h2>
+      <h1 className='heading'>Заказать еду</h1>
+      <h2 className='heading'>
+        {tele?.initDataUnsafe?.user?.username || "empty"}
+      </h2>
       <Cart cartItems={cartItems} onCheckout={onCheckout} />
       <div className='cards__container'>
         {foods.map((food) => {

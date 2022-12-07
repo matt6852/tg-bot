@@ -1,11 +1,12 @@
 const TelegramBot = require("node-telegram-bot-api");
 
 // const bot = new Telegraf("5812244101:AAFqvGtDMrH0L5TLfBq6dRRd1eDsCbEiPOg");
-const web_link = "https://merry-pixie-41bbb3.netlify.app/";
+const web_link = "https://gilded-caramel-ad52e7.netlify.app";
 //
 // const TelegramBot = require('node-telegram-bot-api');
 
 // replace the value below with the Telegram token you receive from @BotFather
+// console.log("est");
 const token = "5812244101:AAFqvGtDMrH0L5TLfBq6dRRd1eDsCbEiPOg";
 
 // Create a bot that uses 'polling' to fetch new updates
